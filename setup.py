@@ -141,7 +141,6 @@ LONG_DESCRIPTION = \
 CLASSIFIERS = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: zlib/libpng License",
     "Operating System :: Microsoft :: Windows",
     "Operating System :: MacOS :: MacOS X",
     "Operating System :: POSIX",
@@ -189,7 +188,6 @@ setup_dict = dict(
     package_dir      = {'Box2D': library_path,
                         'Box2D.b2': os.path.join(library_path, 'b2'),
                         'Box2D.tests' : 'tests'},
-    test_suite       = 'tests',
     options          = { 'build_ext': { 'swig_opts' : swig_arguments },
                          'egg_info' : { 'egg_base' : library_base },
                         },
